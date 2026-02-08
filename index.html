@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/output.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="web site icon" href="src/informatique.jpg" type="image/jpg">
+    <title>Portfolio</title>
 </head>
-<body>
-    <h1 class="bg-amber-500">Hello world</h1>
+<header> <!--génère un logo avec "Mikey" un logo classique-->
+    <nav class="flex items-center justify-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <a href="index.html" class="bg-blue-500 text-white px-4 py-2 rounded hover:text-blue-400 transition duration-300">Accueil</a>
+            <a href="service.html" class="bg-blue-500 text-white px-4 py-2 rounded hover:text-blue-400 transition duration-300">Service</a>
+            <a href="projet.html" class="bg-blue-500 text-white px-4 py-2 rounded hover:text-blue-400 transition duration-300">Projets</a>
+            <a href="competence.html" class="bg-blue-500 text-white px-4 py-2 rounded hover:text-blue-400 transition duration-300">Compétence</a>
+            <a href="experience.html" class="bg-blue-500 text-white px-4 py-2 rounded hover:text-blue-400 transition duration-300">Expérience</a>
+            <a href="contact.html" class="bg-blue-500 text-white px-4 py-2 rounded hover:text-blue-400 transition duration-300">Contact</a>
+    </nav>
+</header>
+<body class="bg-blue-950 text-yellow-50 scroll-smooth">
+    <div class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 flex flex-col justify-center items-center">
+         <div id="accueil">
+            <h1 class="text-2xl font-bold text-center mt-8">Bienvenue sur mon portfolio</h1>
+            <h2 class="text-xl font-bold text-center mt-8 hover:scale-110 hover:read-only:*:**:not-[]:">Dev front-end</h2>
+            <p class="p-4 mt-4 max-w-xl mx-auto">Je m'appelle <strong>Dramane Soumaré</strong> et je suis développeur front-end passionné par la création de sites web modernes et réactifs. Explorez mon portfolio pour découvrir mes projets et compétences. Avec une solide formation en développement web et une passion pour le design, je m'efforce de créer des expériences utilisateur exceptionnelles. Mon objectif est de transformer des idées en réalités numériques attrayantes et fonctionnelles.</p>
+        </div>
+    </div>
 </body>
+<footer class="flex flex-col bg-black text-white mt-4 rounded-2xl grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center items-center">
+    <div class="flex justify-center gap-4 mt-4">
+        <a href="https://github.com/Sadasoumare-21/Mon-Portfolio"><img src="src/GitHub.png" alt=""  class="w-20 h-20 rounded-2xl hover:scale-110 hover:rotate-3 transition duration-300"></a>
+    </div>
+    <div>
+        <p class="text-center text-white mt-4 mb-3">© 2024 Mikey-folio😛. Tous droits réservés.</p>
+    </div>
+</footer>
 </html>
