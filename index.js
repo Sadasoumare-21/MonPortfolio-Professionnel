@@ -1,4 +1,7 @@
-Form.addEventListener("submit", async (e) => {
+const form = document.getElementById("form");
+
+form.addEventListener("submit", async (e) => {
+ 
     e.preventDefault();
 
 
